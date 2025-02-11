@@ -1,0 +1,102 @@
+﻿Angle of repose,Angle of repose points,Compressibility,Compressibility points,Angle of spatula,Angle of spatula points,Uniformity coefficient,Uniformity coefficient points,Cohesion,Cohesion points,Flowability points,Flowability
+25,25,5,25,25,25,1,25,6,14.5,0,"Very, very poor (Special agitate)"
+26,24,6,23,26,24,2,23,7,14.5,1,"Very, very poor (Special agitate)"
+27,24,7,23,27,24,3,23,8,14.5,2,"Very, very poor (Special agitate)"
+28,24,8,23,28,24,4,23,9,14.5,3,"Very, very poor (Special agitate)"
+29,24,9,23,29,24,5,22.5,10,12,4,"Very, very poor (Special agitate)"
+30,22.5,10,22.5,30,24,6,22,11,12,5,"Very, very poor (Special agitate)"
+31,22,11,22,31,22.5,7,21,12,12,6,"Very, very poor (Special agitate)"
+32,21,12,21,32,22,8,20,13,12,7,"Very, very poor (Special agitate)"
+33,21,13,21,33,21,9,19,14,12,8,"Very, very poor (Special agitate)"
+34,21,14,21,34,21,10,18,15,12,9,"Very, very poor (Special agitate)"
+35,20,15,20,35,21,11,18,16,12,10,"Very, very poor (Special agitate)"
+36,19.5,16,19.5,36,21,12,17.5,17,12,11,"Very, very poor (Special agitate)"
+37,18,17,18,37,21,13,17,18,12,12,"Very, very poor (Special agitate)"
+38,18,18,18,38,20,14,16,19,12,13,"Very, very poor (Special agitate)"
+39,18,19,18,39,19.5,15,16,20,12,14,"Very, very poor (Special agitate)"
+40,17.5,20,17.5,40,18,16,16,21,12,15,"Very, very poor (Special agitate)"
+41,17,21,17,41,18,17,15,22,12,16,"Very, very poor (Special agitate)"
+42,16,22,16,42,18,18,14.5,23,12,17,"Very, very poor (Special agitate)"
+43,16,23,16,43,18,19,12,24,12,18,"Very, very poor (Special agitate)"
+44,16,24,16,44,18,20,12,25,12,19,"Very, very poor (Special agitate)"
+45,15,25,15,45,17.5,21,12,26,12,20,Very poor (Agitate more positively)
+46,14.5,26,14.5,46,17,22,10,27,12,21,Very poor (Agitate more positively)
+47,12,27,12,47,16,23,9.5,28,12,22,Very poor (Agitate more positively)
+48,12,28,12,48,16,24,7,29,12,23,Very poor (Agitate more positively)
+49,12,29,12,49,16,25,7,30,10,24,Very poor (Agitate more positively)
+50,12,30,12,50,16,26,7,31,9.5,25,Very poor (Agitate more positively)
+51,12,31,10,51,16,27,5,32,7,26,Very poor (Agitate more positively)
+52,12,32,9.5,52,16,28,4.5,33,7,27,Very poor (Agitate more positively)
+53,12,33,7,53,16,29,2,34,7,28,Very poor (Agitate more positively)
+54,12,34,7,54,16,30,2,35,7,29,Very poor (Agitate more positively)
+55,10,35,7,55,16,31,2,36,7,30,Very poor (Agitate more positively)
+56,9.5,36,7,56,16,32,2,37,7,31,Very poor (Agitate more positively)
+57,7,37,5,57,16,33,2,38,7,32,Very poor (Agitate more positively)
+58,7,38,4.5,58,16,34,2,39,7,33,Very poor (Agitate more positively)
+59,7,39,2,59,16,35,2,40,7,34,Very poor (Agitate more positively)
+60,7,40,2,60,15,36,2,41,7,35,Very poor (Agitate more positively)
+61,7,41,2,61,14.5,,,42,7,36,Very poor (Agitate more positively)
+62,7,42,2,62,12,,,43,7,37,Very poor (Agitate more positively)
+63,7,43,2,63,12,,,44,7,38,Very poor (Agitate more positively)
+64,7,44,2,64,12,,,45,7,39,Very poor (Agitate more positively)
+65,5,45,2,65,12,,,46,7,40,"Poor (Must agitate, vibrate)"
+66,4.5,,,66,12,,,47,7,41,"Poor (Must agitate, vibrate)"
+67,2,,,67,12,,,48,7,42,"Poor (Must agitate, vibrate)"
+68,2,,,68,12,,,49,7,43,"Poor (Must agitate, vibrate)"
+69,2,,,69,12,,,50,7,44,"Poor (Must agitate, vibrate)"
+70,2,,,70,12,,,51,7,45,"Poor (Must agitate, vibrate)"
+71,2,,,71,12,,,52,7,46,"Poor (Must agitate, vibrate)"
+72,2,,,72,12,,,53,7,47,"Poor (Must agitate, vibrate)"
+73,2,,,73,12,,,54,7,48,"Poor (Must agitate, vibrate)"
+74,2,,,74,12,,,55,5,49,"Poor (Must agitate, vibrate)"
+75,2,,,75,10,,,56,4.5,50,"Poor (Must agitate, vibrate)"
+76,2,,,76,9.5,,,57,2,51,"Poor (Must agitate, vibrate)"
+77,2,,,77,7,,,58,2,52,"Poor (Must agitate, vibrate)"
+78,2,,,78,7,,,59,2,53,"Poor (Must agitate, vibrate)"
+79,2,,,79,7,,,60,2,54,"Poor (Must agitate, vibrate)"
+80,2,,,80,7,,,61,2,55,"Poor (Must agitate, vibrate)"
+81,2,,,81,7,,,62,2,56,"Poor (Must agitate, vibrate)"
+82,2,,,82,7,,,63,2,57,"Poor (Must agitate, vibrate)"
+83,2,,,83,7,,,64,2,58,"Poor (Must agitate, vibrate)"
+84,2,,,84,7,,,65,2,59,"Poor (Must agitate, vibrate)"
+85,2,,,85,7,,,66,2,60,"Passable (Borderline, Material may hang up)"
+86,2,,,86,7,,,67,2,61,"Passable (Borderline, Material may hang up)"
+87,2,,,87,7,,,68,2,62,"Passable (Borderline, Material may hang up)"
+88,2,,,88,7,,,69,2,63,"Passable (Borderline, Material may hang up)"
+89,2,,,89,7,,,70,2,64,"Passable (Borderline, Material may hang up)"
+90,0,,,90,5,,,71,2,65,"Passable (Borderline, Material may hang up)"
+,,,,91,4.5,,,72,2,66,"Passable (Borderline, Material may hang up)"
+,,,,92,2,,,73,2,67,"Passable (Borderline, Material may hang up)"
+,,,,93,2,,,74,2,68,"Passable (Borderline, Material may hang up)"
+,,,,94,2,,,75,2,69,"Passable (Borderline, Material may hang up)"
+,,,,95,2,,,76,2,70,"Fair (Aid not needed, but vibrate if necessary)"
+,,,,96,2,,,77,2,71,"Fair (Aid not needed, but vibrate if necessary)"
+,,,,97,2,,,78,2,72,"Fair (Aid not needed, but vibrate if necessary)"
+,,,,98,2,,,79,2,73,"Fair (Aid not needed, but vibrate if necessary)"
+,,,,99,2,,,,,74,"Fair (Aid not needed, but vibrate if necessary)"
+,,,,,,,,,,75,"Fair (Aid not needed, but vibrate if necessary)"
+,,,,,,,,,,76,"Fair (Aid not needed, but vibrate if necessary)"
+,,,,,,,,,,77,"Fair (Aid not needed, but vibrate if necessary)"
+,,,,,,,,,,78,"Fair (Aid not needed, but vibrate if necessary)"
+,,,,,,,,,,79,"Fair (Aid not needed, but vibrate if necessary)"
+,,,,,,,,,,80,"Good (Aid not needed, will not arch)"
+,,,,,,,,,,81,"Good (Aid not needed, will not arch)"
+,,,,,,,,,,82,"Good (Aid not needed, will not arch)"
+,,,,,,,,,,83,"Good (Aid not needed, will not arch)"
+,,,,,,,,,,84,"Good (Aid not needed, will not arch)"
+,,,,,,,,,,85,"Good (Aid not needed, will not arch)"
+,,,,,,,,,,86,"Good (Aid not needed, will not arch)"
+,,,,,,,,,,87,"Good (Aid not needed, will not arch)"
+,,,,,,,,,,88,"Good (Aid not needed, will not arch)"
+,,,,,,,,,,89,"Good (Aid not needed, will not arch)"
+,,,,,,,,,,90,"Excellent (Aid not needed, will not arch)"
+,,,,,,,,,,91,"Excellent (Aid not needed, will not arch)"
+,,,,,,,,,,92,"Excellent (Aid not needed, will not arch)"
+,,,,,,,,,,93,"Excellent (Aid not needed, will not arch)"
+,,,,,,,,,,94,"Excellent (Aid not needed, will not arch)"
+,,,,,,,,,,95,"Excellent (Aid not needed, will not arch)"
+,,,,,,,,,,96,"Excellent (Aid not needed, will not arch)"
+,,,,,,,,,,97,"Excellent (Aid not needed, will not arch)"
+,,,,,,,,,,98,"Excellent (Aid not needed, will not arch)"
+,,,,,,,,,,99,"Excellent (Aid not needed, will not arch)"
+,,,,,,,,,,100,"Excellent (Aid not needed, will not arch)"
