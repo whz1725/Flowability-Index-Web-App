@@ -1,4 +1,4 @@
-from flask import Flask, render_template, flash, request, url_for, redirect
+from flask import Flask, render_template, flash, request, url_for, redirect, send_file
 import pandas as pd
 import numpy as np
 import ast
@@ -7,6 +7,8 @@ import json
 import plotly
 import chart_studio.plotly as py
 import plotly.graph_objs as go
+import sqlite3
+import io
 app = Flask(__name__)
 app.secret_key = "super secret key"
 def AngleofRepose_Points(AngleofRepose, table):
@@ -89,6 +91,31 @@ def Determine_Flowability(FlowabilityPoints, table):
         return table['Flowability'][idx]
     else:
         flash("Invalid Flowability point")
+
+@app.route('/download')
+def download_csv():
+    # 连接到 SQLite 数据库
+    conn = sqlite3.connect('materials.db')
+
+    # 从 materials 表中查询所有数据
+    query = "SELECT * FROM materials"
+    df = pd.read_sql_query(query, conn)
+
+    # 关闭数据库连接
+    conn.close()
+
+    # 将 DataFrame 转换为 CSV
+    output = io.StringIO()
+    df.to_csv(output, index=False)  # index=False 避免写入 DataFrame 索引列
+    output.seek(0)
+
+    # 发送 CSV 文件到用户
+    return send_file(
+        io.BytesIO(output.getvalue().encode()),
+        mimetype='text/csv',
+        as_attachment=True,
+        download_name='flowability_results.csv'
+    )
 
 @app.route('/', methods=['GET','POST'])
 def index():
