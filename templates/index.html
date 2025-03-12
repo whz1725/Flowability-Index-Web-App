@@ -25,6 +25,13 @@
 
   </head>
   <body>
+    <div style="position: absolute; top: 10px; right: 10px; display: flex; align-items: center; gap: 10px;">
+    <img src="{{ url_for('static', filename='cp3.png') }}" alt="Flowability Index Image"
+         style="width: auto; height: 50px; background-color: black; padding: 3px 10px; border-radius: 5px;">
+
+    <img src="{{ url_for('static', filename='Purdue.svg') }}" alt="Purdue Logo"
+         style="width: auto; height: 50px;">
+    </div>
     <div class="container" style="min-height:100% width:80%">
             {% with messages = get_flashed_messages() %}
                 {% if messages %}
@@ -44,7 +51,7 @@
         <div>
             <h1>Carr's Flowability Index
             <i class="fas fa-question-circle" data-toggle="tooltip" data-placement="right" 
-               title="The flowability index is determined from an empirical formula based on the behavior of >280 dry materials (Carr, 1965)"></i>
+               title="According to ASTM D6393-21, the Carr Index is one of several measurements used to characterize the bulk properties of powders and granular materials."></i>
             </h1>     
         </div>
 
@@ -61,7 +68,7 @@
         <div class="form-group row">
             <label for="AngleofRepose" class="col-sm-3 col-form-label">Angle of Repose
                     <i class="fas fa-question-circle" data-toggle="tooltip" data-placement="right" 
-                    title="Pour a powder from some elevation onto a flat plate and measure the angle that the powder slope makes with repect to the horizontal."></i>
+                    title="Determined by dropping the powder specimen through a vibrating sieve and funnel above a horizontal circular platform and measuring the angle of powder cone in relation to the edge of the circular platform."></i>
             </label>
             <div class="col-sm-2">
                 <input type="number" min="25" max="90" step="any" class="form-control" name="AngleofRepose" placeholder="0" value="{{request.form.AngleofRepose}}" 
@@ -73,7 +80,7 @@
         <div class="form-group row">
             <label for="Compressibility" class="col-sm-3 col-form-label">Compressibility
                     <i class="fas fa-question-circle" data-toggle="tooltip" data-placement="right" 
-                    title="Compressibility is the relative change in bulk density of a powder that is 'tapped' and 'aerated'."></i>
+                    title="A calculated value representing the percentage change between the loose and packed bulk densities."></i>
             </label>
             <div class="col-sm-2">
                 <input type="number" min="5" step="any" class="form-control" name="Compressibility" placeholder="0" value="{{request.form.Compressibility}}"
@@ -113,7 +120,7 @@
         <div class="form-group row">
                 <label for="Cohesion" class="col-sm-3 col-form-label">Cohesion 
                     <i class="fas fa-question-circle" data-toggle="tooltip" data-placement="right" 
-                       title="Cohesion is acquired by measuring the mass of powder retained on three vibrating, stacked screens."></i>
+                       title="A descriptive measure of the interparticle forces within a powder, assessed based on the material’s behavior during sieving. "></i>
                     <br>(For coarse granular, enter 0)
                 </label>
                 <div class="col-sm-2">
